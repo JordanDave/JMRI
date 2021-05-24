@@ -1,10 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html><html lang="en">
 <html lang="en">
-<head>
-  <meta name="generator" content=
-  "HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.17), see www.w3.org">
 
+<head>
   <title>JMRI: Technical Info</title>
   <meta name="author" content="Bob Jacobsen">
   <meta name="keywords" content="JMRI technical code">
@@ -269,7 +266,7 @@
         form, but you must give JMRI credit for their content.</li>
       </ul>
       <p>If you have any questions about this, please <a href=
-      "mailto:jmri@jmri.net">contact us</a> directly.</p>
+      "mailto:jmri@jmri.org">contact us</a> directly.</p>
 
       <h2>Visualizations of JMRI Development Activity</h2>
 
@@ -303,5 +300,6 @@
       <!--#include virtual="/Footer.shtml" -->
     </div><!-- closes #mainContent-->
   </div><!-- closes #mBody-->
+  <script src="/js/main.js"></script>
 </body>
 </html>

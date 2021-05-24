@@ -1,30 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta name="generator" content=
-  "HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.17), see www.w3.org">
 
+<head>
   <title>JMRI: Names and Naming</title>
   <meta name="author" content="Bob Jacobsen">
   <meta name="keywords" content=
   "JMRI technical code names user name system name">
-  <!-- The combination of "Define" and {Header, Style, Logo and Footer} comments -->
-  <!-- are an arbitrary design pattern used by the update.pl script to -->
-  <!-- easily replace the common header/footer code for all the web pages -->
-  <!-- delete the following 2 Defines if you want to use the default JMRI logo -->
-  <!-- or change them to reflect your alternative logo -->
-  <!-- Style -->
-  <meta http-equiv="Content-Type" content=
-  "text/html; charset=us-ascii">
-  <link rel="stylesheet" type="text/css" href="/css/default.css"
-  media="screen">
-  <link rel="stylesheet" type="text/css" href="/css/print.css"
-  media="print">
-  <link rel="icon" href="/images/jmri.ico" type="image/png">
-  <link rel="home" title="Home" href="/">
-  <!-- /Style -->
+  <!--#include virtual="/Style.shtml" -->
 </head>
 
 <body>
@@ -208,7 +190,7 @@
 
         <li><strong>M</strong> Model railroad layout control buses, including
         <a href="../../hardware/openlcb/index.shtml">OpenLCB</a>
-        and <a href="../../hardware/can/cbus/index.shtml">CBUS&trade;</a>
+        and <a href="../../hardware/can/cbus/index.shtml">CBUS&reg;</a>
         <br><a href="../../hardware/mrc/index.shtml">Model Rectifier Corp (MRC)</a>
         <br><a href="../../hardware/marklin/index.shtml">Marklin CS2</a>
         </li>
@@ -327,6 +309,9 @@
         can. For example, the system specific part might be B for
         main layout power, e.g. LPB or S42 for subdistrict channel
         2 on card 4, e.g. LPS42.</li>
+
+        <li><strong>Q</strong> LogixNG - Logix Next Generation - a set of logic equations used
+		to control the layout. LogixNG system names start with IQ.</li>
 
         <li><strong>R</strong> Reporters - a general purpose mechanism for reporting
         complicated information from the layout, e.g. locomotive
@@ -1085,11 +1070,12 @@ SENSOR GROUP:my group:LS2
         and jmri.jmrix.cmri.serial.SerialTurnoutTest.
       
         <h2></h2>
-        <p>CBUS&trade; is a registered trade mark of Dr Michael Bolton</p>
+        <p>CBUS&reg; is a registered trade mark of Dr Michael Bolton</p>
         <p></p>
 
       <!--#include virtual="/Footer.shtml" -->
     </div><!-- closes #mainContent-->
   </div><!-- closes #mBody-->
+  <script src="/js/main.js"></script>
 </body>
 </html>

@@ -11,7 +11,7 @@
             <ul>
                 <li><a href="index.shtml">SPROG DCC Hardware;</a></li>
                 <li><a href="Details.shtml">Hardware Connection Details</a></li>
-                <li><a href="../can/cbus/index.shtml">CBUS&trade; help topic</a></li>
+                <li><a href="../can/cbus/index.shtml">CBUS&reg; help topic</a></li>
             </ul>
         </dd>      
 
@@ -27,6 +27,7 @@
 
     <!--#include virtual="/help/en/parts/SidebarTail.shtml" -->
 
-</div> <!-- closes #side -->
-
+  </div> <!-- closes #side -->
+  <!-- button is in /Header -->
+  <script src="/js/side.js"></script>
 <!-- /Sidebar.shtml -->
